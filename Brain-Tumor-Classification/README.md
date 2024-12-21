@@ -8,7 +8,7 @@ This repository contains the implementation of our research project titled **"Ea
 
 Brain tumors pose significant risks to cognitive functions, making early detection critical for improving patient outcomes. This project introduces three novel multi-class deep learning architectures leveraging **transfer learning** to classify brain tumors from T1-weighted contrast-enhanced MRI images. 
 
-### Key Contributions:
+### 🌟 Key Contributions:
 - Achieved **99.19% accuracy** using the **Xception model** with optimized batch normalization and learning rates.
 - Minimized computational overhead by avoiding preprocessing, segmentation, hybrid models, and augmentation techniques.
 - Reduced the number of fully connected layers to streamline computation.
@@ -85,3 +85,11 @@ The project implements three transfer learning-based architectures:
   [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ShyamSundar29) 
 
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shyam-sundar-domakonda)
+
+## 🤝 Acknowledgments
+
+- Dataset provided by [Figshare](https://figshare.com/articles/dataset/brain_tumor_dataset/1512427)  
+  [![Figshare](https://img.shields.io/badge/Figshare-Dataset-blue?style=flat-square&logo=figshare&logoColor=white)](https://figshare.com/articles/dataset/brain_tumor_dataset/1512427)
+
+- Pre-trained models from the [TensorFlow/Keras Applications module](https://keras.io/api/applications/)  
+  [![TensorFlow](https://img.shields.io/badge/TensorFlow-Pretrained-green?style=flat-square&logo=tensorflow&logoColor=white)](https://keras.io/api/applications/)
