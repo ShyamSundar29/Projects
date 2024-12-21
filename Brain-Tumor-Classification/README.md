@@ -66,7 +66,9 @@ The project implements three transfer learning-based architectures:
 ---
 
 
-## Install required Python libraries
+## 🐍 Install Required Python Libraries
+[![Python](https://img.shields.io/badge/Python-3.7%2B-blue?style=flat-square&logo=python&logoColor=white)](https://www.python.org)
+
 ```bash
 !pip install numpy pandas matplotlib scikit-learn tensorflow keras opencv-python
 ```
