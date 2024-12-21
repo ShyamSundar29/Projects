@@ -70,7 +70,7 @@ The project implements three transfer learning-based architectures:
 ```bash
 !pip install numpy pandas matplotlib scikit-learn tensorflow keras opencv-python
 ```
-## Documentation
+## 📖 Documentation
 
 [EARLY DETECTION OF BRAIN TUMOR USING MRI AND TRANSFER LEARNING](https://www.worldscientific.com/doi/10.4015/S1016237224300062)
 
