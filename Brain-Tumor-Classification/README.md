@@ -20,7 +20,7 @@ Our approach demonstrates the potential for early and accurate brain tumor detec
 
 ## 📊 Dataset
 
-The project utilizes the [Figshare T1-weighted contrast-enhanced MRI dataset](https://figshare.com/articles/dataset/brain_tumor_dataset/1512427) consisting of:
+The project utilizes the [Figshare T1-weighted contrast-enhanced MRI dataset](https://figshare.com/) consisting of:
 - **3064 images**
 - **Three tumor types** (e.g., Meningioma, Glioma, and Pituitary tumors)
 
@@ -64,4 +64,18 @@ The project implements three transfer learning-based architectures:
 4. **Efficiency**: Streamlined fully connected layers to minimize computational resource usage.
 
 ---
+
+
+## Install required Python libraries
+```bash
+!pip install numpy pandas matplotlib scikit-learn tensorflow keras opencv-python
+```
+## Documentation
+
+[EARLY DETECTION OF BRAIN TUMOR USING MRI AND TRANSFER LEARNING](https://www.worldscientific.com/doi/10.4015/S1016237224300062)
+
+
+## Authors
+
+- [Shyam Sundar Domakonda](https://github.com/ShyamSundar29)
 
