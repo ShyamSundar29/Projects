@@ -20,7 +20,7 @@ Our approach demonstrates the potential for early and accurate brain tumor detec
 
 ## 📊 Dataset
 
-The project utilizes the [Figshare T1-weighted contrast-enhanced MRI dataset](https://figshare.com/) consisting of:
+The project utilizes the [Brain Tumor MRI Dataset](https://figshare.com/) consisting of:
 - **3064 images**
 - **Three tumor types** (e.g., Meningioma, Glioma, and Pituitary tumors)
 
