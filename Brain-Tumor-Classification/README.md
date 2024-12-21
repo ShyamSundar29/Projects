@@ -1,1 +1,67 @@
-Brain tumors pose significant risks to cognitive functions, making early detection crucial for improving patient survival rates. Accurate tumor detection aids neuro-oncologists in diagnosing tumor types and recommending appropriate treatments. However, manual detection is challenging, time-consuming, and prone to human error. Recently, Deep Learning (DL) models have demonstrated substantial potential in efficiently classifying large image datasets. This paper presents three novel and efficient multi-class DL architectures leveraging transfer learning to classify different brain tumors. Our primary contribution is to enhance the predictive accuracy while minimizing the usage of computational resource compared to other state-of-art models in the literature by forgoing preprocessing, segmentation, hybrid models, and augmentation techniques. Additionally, we reduce the number of FC layers to streamline computation. We conduct extensive experiments to evaluate the performance of our models using the brain tumor Figshare T1-weighted contrast-enhanced MRI dataset, comprising 3064 images from three distinct tumor types. The InceptionV3 model records a 98.36% accuracy level with five-fold cross-validation. By incorporating batch normalization and optimizing the learning rate for the Adam optimizer, the Xception model reached 99.19% accuracy. Finally, we utilize Particle Swarm Optimization (PSO) to fine-tune the learning rate of the Stochastic Gradient Descent (SGD) optimizer. The Xception model attained 98.85% accuracy. These results highlight the novelty of our approach, offering a practical solution for neuro-oncologists, particularly through the fine-tuned Xception model, which delivers early and accurate tumor detection with minimal computational resources.
+# 🧠 Early Detection of Brain Tumor Using MRI and Transfer Learning
+
+This repository contains the implementation of our research project titled **"Early Detection of Brain Tumor Using MRI and Transfer Learning."** The project leverages state-of-the-art deep learning techniques to classify brain tumors efficiently with minimal computational overhead. 
+
+---
+
+## 📝 Abstract
+
+Brain tumors pose significant risks to cognitive functions, making early detection critical for improving patient outcomes. This project introduces three novel multi-class deep learning architectures leveraging **transfer learning** to classify brain tumors from T1-weighted contrast-enhanced MRI images. 
+
+### Key Contributions:
+- Achieved **99.19% accuracy** using the **Xception model** with optimized batch normalization and learning rates.
+- Minimized computational overhead by avoiding preprocessing, segmentation, hybrid models, and augmentation techniques.
+- Reduced the number of fully connected layers to streamline computation.
+- Fine-tuned the learning rate of the SGD optimizer using **Particle Swarm Optimization (PSO)**.
+
+Our approach demonstrates the potential for early and accurate brain tumor detection, providing a practical solution for neuro-oncologists.
+
+---
+
+## 📊 Dataset
+
+The project utilizes the [Figshare T1-weighted contrast-enhanced MRI dataset](https://figshare.com/) consisting of:
+- **3064 images**
+- **Three tumor types** (e.g., Meningioma, Glioma, and Pituitary tumors)
+
+---
+
+## 🛠️ Libraries Used
+
+The following Python libraries and frameworks are used in the project:
+- **TensorFlow/Keras**: For model building and training
+- **NumPy**: Numerical computations
+- **Pandas**: Data manipulation
+- **Matplotlib**: Data visualization
+- **OpenCV**: Image processing
+- **Scikit-learn**: Data splitting and evaluation
+
+---
+
+## 🧪 Model Architectures
+
+The project implements three transfer learning-based architectures:
+1. **InceptionV3**  
+   - Achieved **98.36% accuracy** with five-fold cross-validation.
+
+2. **Xception**  
+   - Incorporated batch normalization and optimized learning rate for Adam optimizer.  
+   - Achieved **99.19% accuracy**.
+
+3. **Xception (with PSO)**  
+   - Fine-tuned learning rate of SGD optimizer using **Particle Swarm Optimization**.  
+   - Achieved **98.85% accuracy**.
+
+---
+
+## 🚀 Project Highlights
+
+1. **Transfer Learning**: Pre-trained models (InceptionV3, Xception) are fine-tuned for the classification task.
+2. **Optimization Techniques**:
+   - Batch normalization for improved convergence.
+   - Particle Swarm Optimization for learning rate fine-tuning.
+3. **Minimal Preprocessing**: Achieves high accuracy without extensive preprocessing or augmentation techniques.
+4. **Efficiency**: Streamlined fully connected layers to minimize computational resource usage.
+
+---
+
