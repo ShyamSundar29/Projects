@@ -40,8 +40,6 @@ The results underscore how DL models can improve clinical decision-making, leadi
 - **Others**: Stratified K-Fold cross-validator, time utilities.
 
 ---
-
----
 ## 🐍 Install Required Python Libraries
 [![Python](https://img.shields.io/badge/Python-3.7%2B-blue?style=flat-square&logo=python&logoColor=white)](https://www.python.org)
 
@@ -72,11 +70,7 @@ Contributions are welcome! Please follow these steps:
 
 ---
 
-
----
-
 ## 🧑‍💻 Authors
-
 
 - **Shyam Sundar Domakonda**  
 
@@ -84,6 +78,6 @@ Contributions are welcome! Please follow these steps:
 
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shyam-sundar-domakonda)
 
-![Footer Logo](https://via.placeholder.com/100)
+
 
 ---
