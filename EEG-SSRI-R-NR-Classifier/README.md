@@ -11,7 +11,7 @@ The results underscore how DL models can improve clinical decision-making, leadi
 
 ---
 
-## 📊 Key Features
+## 🌟 Key Features
 
 - **State-of-the-art Time-Frequency Analysis**: WSST, CWT, and DWT for EEG signal processing.
 - **Custom Lightweight CNN Architecture**: Achieved accuracy of 98.89%.
