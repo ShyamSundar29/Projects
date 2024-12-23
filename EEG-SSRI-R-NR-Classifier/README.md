@@ -1,4 +1,5 @@
 # Time Frequency Images as Predictors for Depressed Patients’ Respondent Status to SSRI Antidepressant
+# ![Project Logo](https://img.shields.io/badge/Time_Frequency_Images_as_Predictors_for_Depressed_Patients-blue) Time Frequency Images as Predictors for Depressed Patients’ Respondent Status to SSRI Antidepressant
 
 ---
 
@@ -20,6 +21,23 @@ The results underscore how DL models can improve clinical decision-making, leadi
 - **5-Fold Cross-Validation**: Ensures robustness with metrics like accuracy, precision, recall, and specificity.
 - **Comparative Analysis**: Outperformed complex architectures like ResNet and EfficientNet.
 - **Clinical Impact**: Enhances decision-making for personalized depression treatment.
+
+---
+## 📊 Dataset
+
+The project utilizes the [MDD Patients and Healthy Controls EEG Dataset](https://figshare.com/articles/dataset/EEG_Data_New/4244171), which consists of:
+
+- **30 individuals diagnosed with Major Depressive Disorder (MDD)** and **healthy controls**
+- **EEG data recorded** during pretreatment resting-state with eyes closed (EC) 
+- **19-channel EEG recordings** based on the international 10–20 electrode positioning system
+- **5-minute duration** for each EEG recording
+- **Sampling rate** of **256 Hz**
+- **Frequency range** band-pass filtered from **0.5 to 70 Hz**
+- **Power line noise removal** using a **50 Hz Notch filter**
+- **12 patients** with a positive response to antidepressant treatment (defined as at least a 50% reduction in Beck Depression Inventory scores)
+
+The dataset was collected from the Hospital University Sains Malaysia in Kelantan, Malaysia, and received approval from their human ethics committee.
+
 
 ---
 
