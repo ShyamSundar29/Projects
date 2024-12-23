@@ -64,6 +64,21 @@ The dataset was collected from the Hospital University Sains Malaysia in Kelanta
 ```
 
 ---
+## 🧪 Model Architecture
+
+The CNN model for predicting SSRI response consists of the following layers:
+
+- **Convolutional Layers**: Four convolutional layers with ReLU activation, batch normalization, and (3, 3) kernel size. The number of filters are 4, 6, 8, and 12, respectively.
+- **Dropout**: A dropout layer with a rate of 0.25 to mitigate overfitting.
+- **Fully Connected Layer**: Dense layer with a sigmoid activation function for binary classification.
+- **Output Layer**: A single neuron with sigmoid activation for binary output.
+
+### Training Setup:
+- **Optimizer**: Adam (learning rate: 0.0001)
+- **Loss Function**: Binary cross-entropy
+- **Regularization**: Dropout (rate = 0.25), Early stopping (patience = 3)
+
+------
 
 ## 📈 Results and Performance
 
