@@ -100,7 +100,13 @@ Contributions are welcome! Please follow these steps:
 - Dataset provided by [Figshare](https://figshare.com/articles/dataset/EEG_Data_New/4244171)  
   [![Figshare](https://img.shields.io/badge/Figshare-Dataset-blue?style=flat-square&logo=figshare&logoColor=white)](https://figshare.com/articles/dataset/EEG_Data_New/4244171)
 
-- Pre-trained models from the [TensorFlow/Keras Applications module](https://keras.io/api/applications/)  
-  [![TensorFlow](https://img.shields.io/badge/TensorFlow-Pretrained-green?style=flat-square&logo=tensorflow&logoColor=white)](https://keras.io/api/applications/)
-  
+- Wavelet Synchrosqueezing from [MathWorks](https://www.mathworks.com/help/wavelet/gs/wavelet-synchrosqueezing.html)  
+  [![Wavelet Synchrosqueezing](https://img.shields.io/badge/Wavelet_Synchrosqueezing-blue?style=flat-square)](https://www.mathworks.com/help/wavelet/gs/wavelet-synchrosqueezing.html)
+
+- Continuous Wavelet Transforms from [MathWorks](https://www.mathworks.com/help/wavelet/continuous-wavelet-transforms.html)  
+  [![Continuous Wavelet](https://img.shields.io/badge/Continuous_Wavelet-green?style=flat-square)](https://www.mathworks.com/help/wavelet/continuous-wavelet-transforms.html)
+
+- Discrete Wavelet Transform from [MathWorks](https://www.mathworks.com/help/wavelet/ref/dwt.html)  
+  [![Discrete Wavelet](https://img.shields.io/badge/Discrete_Wavelet-orange?style=flat-square)](https://www.mathworks.com/help/wavelet/ref/dwt.html)
+
 ---
