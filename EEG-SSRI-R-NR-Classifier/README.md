@@ -76,6 +76,7 @@ The CNN model for predicting SSRI response consists of the following layers:
 - **Optimizer**: Adam (learning rate: 0.0001)
 - **Loss Function**: Binary cross-entropy
 - **Regularization**: Dropout (rate = 0.25), Early stopping (patience = 3)
+- **Cross-Validation**: 5-fold cross-validation with 10 epochs per fold
 
 ------
 
