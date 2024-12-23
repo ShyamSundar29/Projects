@@ -1,6 +1,4 @@
 # Time Frequency Images as Predictors for Depressed Patients’ Respondent Status to SSRI Antidepressant
-# ![Project Logo](https://img.shields.io/badge/Time_Frequency_Images_as_Predictors_for_Depressed_Patients-blue) Time Frequency Images as Predictors for Depressed Patients’ Respondent Status to SSRI Antidepressant
-
 ---
 
 ## 📝 Description
@@ -96,6 +94,13 @@ Contributions are welcome! Please follow these steps:
 
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shyam-sundar-domakonda)
 
+---
+## 🤝 Acknowledgments
 
+- Dataset provided by [Figshare](https://figshare.com/articles/dataset/EEG_Data_New/4244171)  
+  [![Figshare](https://img.shields.io/badge/Figshare-Dataset-blue?style=flat-square&logo=figshare&logoColor=white)](https://figshare.com/articles/dataset/EEG_Data_New/4244171)
 
+- Pre-trained models from the [TensorFlow/Keras Applications module](https://keras.io/api/applications/)  
+  [![TensorFlow](https://img.shields.io/badge/TensorFlow-Pretrained-green?style=flat-square&logo=tensorflow&logoColor=white)](https://keras.io/api/applications/)
+  
 ---
