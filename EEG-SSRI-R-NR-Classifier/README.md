@@ -1,6 +1,5 @@
 # Time Frequency Images as Predictors for Depressed Patients’ Respondent Status to SSRI Antidepressant
 ---
-
 ## 📝 Description
 Depression is a mental disorder that might cause self-harm and suicidal thoughts if the level of depression reaches the refractory or recurrent depressive disorder stage. Depression can be categorized into four different levels defined by the Beck Depression Inventory (BDI): minimal, mild, moderate, and severe. The level of depression is essential in narrowing down the selection of therapy options. 
 
@@ -83,7 +82,7 @@ The CNN model for predicting SSRI response consists of the following layers:
 ## 📈 Results and Performance
 
 - **Accuracy**: 98.89%
-- **Precision**: 97.5%
+- **Precision**:git add 97.5%
 - **Recall**: 96.8%
 - **Specificity**: 99.1%
 
