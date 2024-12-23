@@ -39,10 +39,10 @@ The project utilizes the [MDD Patients and Healthy Controls EEG Dataset](https:/
 The dataset was collected from the Hospital University Sains Malaysia in Kelantan, Malaysia, and received approval from their human ethics committee.
 
 ### Responders
-![Responder EEG](https://github.com/ShyamSundar29/Projects/blob/main/EEG-SSRI-R-NR-Classifier/EGG_Signal/19_Channel_R.png)
+<img src="https://github.com/ShyamSundar29/Projects/blob/main/EEG-SSRI-R-NR-Classifier/EGG_Signal/19_Channel_R.png" width="400" height="400">
 
 ### Non-Responders
-![Non-Responder EEG](https://github.com/ShyamSundar29/Projects/blob/main/EEG-SSRI-R-NR-Classifier/EGG_Signal/19_Channel_NR.png)
+<img src="https://github.com/ShyamSundar29/Projects/blob/main/EEG-SSRI-R-NR-Classifier/EGG_Signal/19_Channel_NR.png" width="400" height="400">
 
 ---
 
