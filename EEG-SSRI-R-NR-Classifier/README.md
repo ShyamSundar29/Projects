@@ -1,7 +1,5 @@
 # Time Frequency Images as Predictors for Depressed Patients’ Respondent Status to SSRI Antidepressant
 
-![Project Logo](https://via.placeholder.com/150)
-
 ---
 
 ## 📝 Description
@@ -43,40 +41,13 @@ The results underscore how DL models can improve clinical decision-making, leadi
 
 ---
 
-## 📂 Project Structure
-
-```
-├── data                # Dataset and preprocessing scripts
-├── models              # Trained models and architecture definitions
-├── notebooks           # Jupyter notebooks for experiments
-├── src                 # Source code for model training and evaluation
-├── results             # Model evaluation metrics and visualizations
-└── README.md           # Project documentation
-```
-
 ---
+## 🐍 Install Required Python Libraries
+[![Python](https://img.shields.io/badge/Python-3.7%2B-blue?style=flat-square&logo=python&logoColor=white)](https://www.python.org)
 
-## 🚀 Installation and Usage
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/project-name.git
-   ```
-
-2. Navigate to the project directory:
-   ```bash
-   cd project-name
-   ```
-
-3. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. Run the training script:
-   ```bash
-   python src/train_model.py
-   ```
+```bash
+!pip install numpy pandas matplotlib scikit-learn tensorflow keras opencv-python
+```
 
 ---
 
@@ -86,14 +57,6 @@ The results underscore how DL models can improve clinical decision-making, leadi
 - **Precision**: 97.5%
 - **Recall**: 96.8%
 - **Specificity**: 99.1%
-
-### Confusion Matrix
-
-![Confusion Matrix](https://via.placeholder.com/500)
-
-### ROC Curve
-
-![ROC Curve](https://via.placeholder.com/500)
 
 ---
 
@@ -109,19 +72,17 @@ Contributions are welcome! Please follow these steps:
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 📧 Contact
+## 🧑‍💻 Authors
 
-For questions or collaboration opportunities:
 
-- Email: your.email@example.com
-- LinkedIn: [Your Name](https://linkedin.com/in/yourprofile)
-- GitHub: [YourUsername](https://github.com/yourusername)
+- **Shyam Sundar Domakonda**  
+
+  [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ShyamSundar29) 
+
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shyam-sundar-domakonda)
 
 ![Footer Logo](https://via.placeholder.com/100)
 
