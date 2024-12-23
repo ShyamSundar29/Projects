@@ -1,4 +1,5 @@
 # Time Frequency Images as Predictors for Depressed Patients’ Respondent Status to SSRI Antidepressant
+
 This repository contains the implementation of our research project titled **"Time-Frequency Images as Predictors for Depressed Patients’ Respondent Status to SSRI Antidepressant."**  The project utilizes deep learning models to analyze EEG-derived time-frequency images and predict patient responses to SSRIs, offering a novel approach for personalized depression treatment.
 ---
 ## 📝 Description
