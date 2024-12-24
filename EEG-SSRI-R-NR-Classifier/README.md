@@ -76,6 +76,43 @@ The dataset was collected from the Hospital University Sains Malaysia in Kelanta
 ```bash
 !pip install numpy pandas matplotlib scikit-learn tensorflow keras opencv-python
 ```
+---
+## Repository Structure
+
+EEG-SSRI-R-NR-Classifier/
+│
+├── Brain_Lobe_Images/                 # Contains images of brain lobes and electrode positions
+│   ├── Finnal_lobe_1.png
+│   ├── Finnal_lobe_2.png
+│
+├── EGG_Signal/                        # Contains raw EEG signal data and visualization
+│   ├── 19_Channel_NR.png              # 19-channel non-responder EEG signal
+│   ├── 19_Channel_R.png               # 19-channel responder EEG signal
+│
+├── EGG_Signal_Preprocessing/          # Scripts and data for preprocessing EEG signals
+│
+├── Pretrained_Models/                 # Pretrained CNN models for classification
+│   ├── Densenet201-79-88.ipynb        # DenseNet201 model notebook
+│   ├── Efficientnetv2l-97-40.ipynb    # EfficientNetV2L model notebook
+│   ├── Mobilenetv2-68-08.ipynb        # MobileNetV2 model notebook
+│   ├── Resnet152v2-95-75.ipynb        # ResNet152V2 model notebook
+│   ├── Xception-85-97.ipynb           # Xception model notebook
+│
+├── Proposed_CNN/                      # Proposed CNN model architecture and training scripts
+│   ├── CNN_CWT_Model.ipynb            # CNN model using Continuous Wavelet Transform (CWT)
+│   ├── CNN_DWT_Model.ipynb            # CNN model using Discrete Wavelet Transform (DWT)
+│   ├── CNN_WSST_Model.ipynb           # CNN model using Wavelet Synchrosqueezing Transform (WSST)
+│
+├── WSST_Feature_Map_Images/           # Images of time-frequency maps generated from WSST
+│   ├── conv2d/                        # Feature maps from the first convolutional layer
+│   ├── conv2d_1/                      # Feature maps from the second convolutional layer
+│   ├── conv2d_2/                      # Feature maps from the third convolutional layer
+│   ├── conv2d_3/                      # Feature maps from the fourth convolutional layer
+│
+├── MDD_Research_Block_Diagram.pdf     # Block diagram of the research methodology
+│
+└── README.md                          # Project documentation
+
 
 ---
 ## 🧪 Model Architecture
