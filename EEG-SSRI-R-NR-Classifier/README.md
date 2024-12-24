@@ -113,7 +113,7 @@ EEG-SSRI-R-NR-Classifier/
 ├── MDD_Research_Block_Diagram.pdf      # Block diagram of the research methodology
 │
 └── README.md                           # Project documentation
-
+```
 ---
 ## 🧪 Model Architecture
 
